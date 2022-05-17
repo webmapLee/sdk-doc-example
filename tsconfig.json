@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "module": "es2015",
+    "lib": ["dom", "es2015"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": false,
+    "moduleResolution": "Node",
+    "outDir": "dist/esm",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"],
+  "typedocOptions": {
+    "entryPoints": ["src/index.ts"],
+    "out": "docs"
+  }
+}

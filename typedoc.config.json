@@ -1,0 +1,6 @@
+{
+    "entryPoints" : "./src",
+    "exclude": ["**/__test__/*.ts","**/src/interfaces/*.ts"],
+    "include": "src/**/*.ts",
+    "out": "./docs"
+}
